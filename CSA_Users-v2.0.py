@@ -20,7 +20,7 @@ class Ui_Dialog(object):
 
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(526, 300)
+        Dialog.resize(726, 400)
         self.buttonBox = QtWidgets.QDialogButtonBox(Dialog)
         self.buttonBox.setGeometry(QtCore.QRect(95, 210, 341, 32))
         self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
@@ -33,19 +33,19 @@ class Ui_Dialog(object):
  
         self.pushButton.setObjectName("pushButton")
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(13, 100, 500, 31))
+        self.label.setGeometry(QtCore.QRect(13, 100, 700, 31))
         self.label.setFrameShape(QtWidgets.QFrame.Panel)
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
 
         self.label2 = QtWidgets.QLabel(Dialog)
-        self.label2.setGeometry(QtCore.QRect(13, 135, 500, 31))
+        self.label2.setGeometry(QtCore.QRect(13, 135, 700, 31))
         self.label2.setFrameShape(QtWidgets.QFrame.Panel)
         self.label2.setAlignment(QtCore.Qt.AlignCenter)
         self.label2.setObjectName("label2")
 
         self.label3 = QtWidgets.QLabel(Dialog)
-        self.label3.setGeometry(QtCore.QRect(13, 170, 500, 31))
+        self.label3.setGeometry(QtCore.QRect(13, 170, 700, 31))
         self.label3.setFrameShape(QtWidgets.QFrame.Panel)
         self.label3.setAlignment(QtCore.Qt.AlignCenter)
         self.label3.setObjectName("label2")
